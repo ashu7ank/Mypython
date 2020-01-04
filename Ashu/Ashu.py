@@ -47,12 +47,17 @@ else:
 
 a = [int(a) for a in input("Enter multiple value: ").split()]
 if a[0]>a[1] and a[1]>a[2]:
-    print("First is greatest")"""
+    print("First is greatest")
 
+
+
+num1, num2, num3 =input("Enter 3 values:").split()
 a, b, c =[int(x) for x in input("Enter 3 values: ").split()]
-print(a,b,c)
-print(type (a))
+print(a,b,c)"""
 
+
+for i in range(100,10,-10):
+    print(i,end='  ')
 
 
 
