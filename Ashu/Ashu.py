@@ -19,10 +19,12 @@ lname=input("Enter last name:")
 msg2=f' {lname} [{lname}] is a system admin'
 print(msg2)
 
+
+
 is_rainy=True
 if is_rainy:
     print ("It is a rainy day")
-print("Enjoy your day")"""
+print("Enjoy your day")
 
 num=int(input("enter a no."))
 if num<0:
@@ -31,4 +33,29 @@ elif num==0:
     print("zero")
 else:
     print("Positive value")
+
+
+a,b,c=input("Enter num1, num2, num3: ").split()
+if a>b and a>c:
+    print("Num 1 is greater")
+elif b>c and b>a:
+    print("Num 2 is greater")
+else:
+    print("Num 3 is greater")
+
+
+
+a = [int(a) for a in input("Enter multiple value: ").split()]
+if a[0]>a[1] and a[1]>a[2]:
+    print("First is greatest")"""
+
+a, b, c =[int(x) for x in input("Enter 3 values: ").split()]
+print(a,b,c)
+print(type (a))
+
+
+
+
+
+
 
