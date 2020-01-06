@@ -53,13 +53,35 @@ if a[0]>a[1] and a[1]>a[2]:
 
 num1, num2, num3 =input("Enter 3 values:").split()
 a, b, c =[int(x) for x in input("Enter 3 values: ").split()]
-print(a,b,c)"""
+print(a,b,c)
 
 
 for i in range(100,10,-10):
     print(i,end='  ')
 
 
+a,b=0,1
+while b<1000:
+    print(b, end=' ')
+    a,b=b,b+a
+
+
+for i in range (2,10):
+    c= 0
+    for j in range(2, (i-1)):
+        if i%j==0:
+            c= c+1
+    if c== 0:
+        print(i,end=",")"""
+
+
+
+for i in range (2,10):
+    for j in range(2,(i-1)):
+        if i%j==0:
+            break
+    else:
+        print(i,end=",")
 
 
 
